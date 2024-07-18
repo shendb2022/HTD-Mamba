@@ -56,7 +56,7 @@ class MambaBlock(nn.Module):
         seq_array = [seq_len]
         d = seq_len
         for _ in range(2):
-            d = int(d / 2 + 0.5)
+            d = (d - 1) // 2 + 1
             seq_array.append(d)
         # self, d_model, state_size, d_inner, d_conv, conv_bias=True, adjust=True, factory_kwargs=None
         self.ssm_x1 = SSM_Manipulation(d_model=self.d_model, state_size=self.d_state, d_inner=self.d_inner,
