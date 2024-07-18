@@ -32,10 +32,6 @@ Hyperspectral target detection (HTD) identifies objects of interest from complex
 <img src="assets/architecture.png" />
 </div>
 
-<div style="text-align: center;">
-<img src="assets/pyramid_SSM.png" />
-</div>
-
 ## Installation
 - CUDA 11.7
   - Make sure `/usr/local/cuda-11.7` exists. If not, you can install it from NVIDIA DEVELOPER ([CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive))
