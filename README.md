@@ -2,11 +2,11 @@
 <h1>HTD-Mamba </h1>
 <h3>Efficient Hyperspectral Target Detection with Pyramid State Space Model</h3>
 
-[Dunbin Shen](https://scholar.google.com/citations?user=DH4VSLMAAAAJ&hl=zh-CN)<sup>1</sup> ,[Xuanbing Zhu]()<sup>1</sup> ,[Jiacheng Tian]()<sup>1</sup>, [Jianjun Liu](https://scholar.google.com/citations?user=RfDuPkwAAAAJ&hl=zh-CN)<sup>2</sup>, [Zhenrong Du](https://scholar.google.com/citations?user=QIcuvuYAAAAJ&hl=zh-CN&oi=ao)<sup>1</sup>, [Hongyu Wang](http://faculty.dlut.edu.cn/MMCL_WHY/zh_CN/)<sup>1</sup>, [Xiaorui Ma](https://scholar.google.com/citations?hl=zh-CN&user=bM2EAnMAAAAJ)<sup>1 :email:</sup>
+[Dunbin Shen](https://scholar.google.com/citations?user=DH4VSLMAAAAJ&hl=zh-CN)<sup>1</sup> ,[Xuanbing Zhu](https://github.com/ZHU-0108/FCNet-main)<sup>1</sup> ,Jiacheng Tian<sup>1</sup>, [Jianjun Liu](https://scholar.google.com/citations?user=RfDuPkwAAAAJ&hl=zh-CN)<sup>2</sup>, [Zhenrong Du](https://scholar.google.com/citations?user=QIcuvuYAAAAJ&hl=zh-CN&oi=ao)<sup>1</sup>, [Hongyu Wang](http://faculty.dlut.edu.cn/MMCL_WHY/zh_CN/)<sup>1</sup>, [Xiaorui Ma](https://scholar.google.com/citations?hl=zh-CN&user=bM2EAnMAAAAJ)<sup>1 :email:</sup>
 
 <sup>1</sup>  Dalian University of Technology, <sup>2</sup>  Jiangnan University
 
-(<sup>:email:</sup>) corresponding author.
+(<sup>:email:</sup>) Corresponding author.
 
 ArXiv Preprint ([arXiv 2407.06841](https://arxiv.org/abs/2407.06841))
 
