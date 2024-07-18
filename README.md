@@ -32,24 +32,38 @@ Hyperspectral target detection (HTD) identifies objects of interest from complex
 
 ## Installation
 - CUDA 11.7
-  - Make sure `/usr/local/cuda-11.7` exists. If not, you can install it from NVIDIA DEVELOPER ([CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive))
+  - Make sure `/usr/local/cuda-11.7` exists. If not, you can install it from NVIDIA DEVELOPER ([CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive)). For example, Ubuntu 18.04 x86_64
+    - `wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda_11.7.1_515.65.01_linux.run`
+    - `sudo sh cuda_11.7.1_515.65.01_linux.run`
+  - See `nvcc -V` is `cuda_11.7`. If not, you should modify the `.bashrc` like this:
+    - `vim ~/.bashrc` -> `i`, and add the following to the end
+    
+      export CUDA_HOME=/usr/local/cuda-11.7
+    
+      export PATH=$PATH:/usr/bin:/bin
+    
+      export PATH=/usr/local/cuda-11.7/bin${PATH:+:${PATH}}
+    
+      export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+    - `esc`->`:wq`->`source ~/.bashrc`, and see `nvcc -V` is `cuda_11.7`.
 - Python 3.10.x
   - `conda create -n htd-mamba python=3.10`
   - `conda activate htd-mamba`
 
-- torch 2.0.1 + cu117
+- Torch 2.0.1
   - `conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia` or
   - `pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu117`
 
 - Requirements: requirements.txt
-  - `cd /home/your_path/HTD-Mamba`
+  - `cd /home/your_path/HTD-Mamba-main`
   - `pip install -r requirements.txt`
 
 - Install ``selective_scan_cuda``
-  - `cd /home/your_path/HTD-Mamba`
+  - `cd /home/your_path/HTD-Mamba-main`
   - `pip install .`
   
 - Install ``causal_conv1d``
+  - `pip install --upgrade pip`
   - `pip install causal_conv1d>=1.1.0`
  
 ## Evaluation
