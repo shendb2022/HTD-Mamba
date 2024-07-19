@@ -35,7 +35,8 @@ Hyperspectral target detection (HTD) identifies objects of interest from complex
   - Make sure `/usr/local/cuda-11.7` exists. If not, you can install it from NVIDIA DEVELOPER ([CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive)). For example, Ubuntu 18.04 x86_64
     - `wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda_11.7.1_515.65.01_linux.run`
     - `sudo sh cuda_11.7.1_515.65.01_linux.run`
-  - Note that if you use Ubuntu 24.04, perhaps the gcc version is too high to install CUDA 11.7. So you should degrade the gcc version at first like this:
+  
+    Note that if you use Ubuntu 24.04, perhaps the gcc version is too high to install CUDA 11.7. So you should degrade the gcc version at first like this:
     - `sudo apt install gcc-9 g++-9`
     - `sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 100 `
     - `gcc -v`
