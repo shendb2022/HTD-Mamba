@@ -19,11 +19,12 @@ ArXiv Preprint ([arXiv 2407.06841](https://arxiv.org/abs/2407.06841))
 
 
 ### News
+* **` March 3th, 2025`:** Our paper has been published to IEEE Explore.️
 * **` July 18th, 2024`:** We released our codes and models.️
 
 
 ## Abstract
-Hyperspectral target detection (HTD) identifies objects of interest from complex backgrounds at the pixel level, playing a vital role in Earth observation. However, HTD faces challenges due to limited prior knowledge and spectral variation, leading to underfitting models and unreliable performance. To address these challenges, this paper proposes an efficient self-supervised HTD method with a pyramid state space model (SSM), named HTD-Mamba, which employs spectrally contrastive learning to distinguish between target and background based on the similarity measurement of intrinsic features. Specifically, to obtain sufficient training samples and leverage spatial contextual information, we propose a spatial-encoded spectral augmentation technique that encodes all surrounding pixels within a patch into a transformed view of the center pixel. Additionally, to explore global band correlations, we divide pixels into continuous group-wise spectral embeddings and introduce Mamba to HTD for the first time to model long-range dependencies of the spectral sequence with linear complexity. Furthermore, to alleviate spectral variation and enhance robust representation, we propose a pyramid SSM as a backbone to capture and fuse multiresolution spectral-wise intrinsic features. Extensive experiments conducted on four public datasets demonstrate that the proposed method outperforms state-of-the-art methods in both quantitative and qualitative evaluations.
+Hyperspectral target detection (HTD) identifies objects of interest from complex backgrounds at the pixel level, playing a vital role in Earth observation. However, the limited target priors constrain the ability to obtain sufficient features or patterns for background-target discrimination, and spectral variation further exacerbates the difficulty of achieving reliable and robust performance. To address these challenges, this paper proposes an efficient self-supervised HTD method with a pyramid state space model (SSM), named HTD-Mamba, which employs spectrally contrastive learning to distinguish between target and background based on the similarity measurement of intrinsic features. Specifically, to obtain sufficient training samples and leverage spatial contextual information, we propose a spatial-encoded spectral augmentation technique that encodes all surrounding pixels within a patch into a transformed view of the center pixel. Additionally, to explore global band correlations, we divide pixels into continuous group-wise spectral embeddings and introduce Mamba to HTD for the first time to model long-range dependencies of the spectral sequence with linear complexity. Furthermore, to alleviate spectral variation and enhance robust representation, we propose a pyramid SSM as a backbone to capture and fuse multiresolution spectral-wise intrinsic features. Extensive experiments conducted on four public datasets demonstrate that the proposed method outperforms state-of-the-art methods in both quantitative and qualitative evaluations.
 
 ## Overview
 <div align="center">
@@ -93,7 +94,8 @@ If you find `HTD-Mamba` useful in your research or applications, please consider
  @article{shen2024htd,
   title={HTD-Mamba: Efficient Hyperspectral Target Detection with Pyramid State Space Model},
   author={Shen, Dunbin and Zhu, Xuanbing and Tian, Jiacheng and Liu, Jianjun and Du, Zhenrong and Wang, Hongyu and Ma, Xiaorui},
-  journal={arXiv preprint arXiv:2407.06841},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  doi={10.1109/TGRS.2025.3547019},
   year={2024}
 }
 ```
