@@ -96,6 +96,6 @@ If you find `HTD-Mamba` useful in your research or applications, please consider
   author={Shen, Dunbin and Zhu, Xuanbing and Tian, Jiacheng and Liu, Jianjun and Du, Zhenrong and Wang, Hongyu and Ma, Xiaorui},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
   doi={10.1109/TGRS.2025.3547019},
-  year={2024}
+  year={2025}
 }
 ```
