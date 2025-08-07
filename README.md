@@ -32,7 +32,7 @@ Hyperspectral target detection (HTD) identifies objects of interest from complex
 </div>
 
 ## Installation
-- CUDA 11.7
+- CUDA 11.7 or 11.8
   - Make sure `/usr/local/cuda-11.7` exists. If not, you can install it from NVIDIA DEVELOPER ([CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive)). For example, Ubuntu 18.04 x86_64
     - `wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda_11.7.1_515.65.01_linux.run`
     - `sudo sh cuda_11.7.1_515.65.01_linux.run`
@@ -70,7 +70,7 @@ Hyperspectral target detection (HTD) identifies objects of interest from complex
   
 - Install ``causal_conv1d``
   - `pip install --upgrade pip`
-  - `pip install causal_conv1d>=1.1.0`
+  - `pip install causal_conv1d==1.4.0`
  
 ## Evaluation
 To evaluate `HTD-Mamba` on four public datasets, run:
