@@ -91,11 +91,13 @@ This project is based on `Mamba` ([paper](https://arxiv.org/abs/2312.00752), [co
 If you find `HTD-Mamba` useful in your research or applications, please consider giving us a star 🌟 and citing it using the following BibTeX entry.
 
 ```bibtex
- @article{shen2024htd,
-  title={HTD-Mamba: Efficient Hyperspectral Target Detection with Pyramid State Space Model},
-  author={Shen, Dunbin and Zhu, Xuanbing and Tian, Jiacheng and Liu, Jianjun and Du, Zhenrong and Wang, Hongyu and Ma, Xiaorui},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  doi={10.1109/TGRS.2025.3547019},
-  year={2025}
+ @article{shen2025htd,
+	author={Shen, Dunbin and Zhu, Xuanbing and Tian, Jiacheng and Liu, Jianjun and Du, Zhenrong and Wang, Hongyu and Ma, Xiaorui},
+	journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+	title={HTD-Mamba: Efficient Hyperspectral Target Detection With Pyramid State Space Model}, 
+	year={2025},
+	month={Mar.},
+	volume={63},
+	note={{Art. no. 5507315}},
 }
 ```
