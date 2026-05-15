@@ -19,7 +19,7 @@ ArXiv Preprint ([arXiv 2407.06841](https://arxiv.org/abs/2407.06841))
 
 
 ### News
-* **` May 14th, 2026`:** Our paper has been selected as an ESI Highly Cited Paper :trophy:.
+* **` May 14th, 2026`:** :trophy: Our paper has been selected as an ESI Highly Cited Paper.
 * **` March 3th, 2025`:** Our paper has been published to IEEE Explore.️
 * **` July 18th, 2024`:** We released our codes and models.️
 
